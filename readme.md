@@ -22,7 +22,8 @@ ___
 1. Create files readme.md, build.gradle, .gitignore.
 2. Set a structure in the file readme.
 3. Created a structure directories of the project and set used dependencies in build.gradle.
-
+4. Created packages in the project and main file of project 'Building'.
+5. 
 ## What's new?
 
 ### Java
