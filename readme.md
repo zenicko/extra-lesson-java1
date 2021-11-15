@@ -5,7 +5,7 @@ This project uses static classes, methods, fields and includes getters and sette
 
 ## Acknowledgments
 ___
-**Dmitry Tuchs**
+[**Dmitrii Tuchs**](https://github.com/dtuchs)
 
 
 ## About home tasks
