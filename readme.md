@@ -21,22 +21,27 @@ ___
 ___
 1. Create files readme.md, build.gradle, .gitignore.
 2. Set a structure in the file readme.
-3. Created a structure directories of the project and set used dependencies in build.gradle.
-4. Created packages in the project and main file of project 'Building'.
-5. 
+3. Create a structure directories of the project and set used dependencies in build.gradle.
+4. Create packages in the project and main file of project 'Building'.
+5. Create `class Car` with gettera and setters, static fields and class. 
+
 ## What's new?
 
 ### Java
+1. Java: Is `null` unseriously? 
+Ok, you take `java.lang.NullPointerException` right now!
+
 ### Gradle
 ### Selenide
 ### Git
 ### Allure
 ### Resources
+1. [About null](https://javarush.ru/groups/posts/1080-9-vejshey-o-null-v-java)  
+
 ### Miscellaneous
+1. Types of a body: Седан(sedan), Универсал(station wagon), Хэтчбек(hatchback), Лифтбек(liftback), Crossover, Минивэн(Minivan) 
 
 
 ## Notes by the reviewer
-
-
 
 
