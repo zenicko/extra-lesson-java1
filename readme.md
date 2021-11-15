@@ -23,7 +23,8 @@ ___
 2. Set a structure in the file readme.
 3. Create a structure directories of the project and set used dependencies in build.gradle.
 4. Create packages in the project and main file of project 'Building'.
-5. Create `class Car` with gettera and setters, static fields and class. 
+5. Create `class Car` with getters and setters, static fields and class.
+6. Add more comments into class Car.
 
 ## What's new?
 
