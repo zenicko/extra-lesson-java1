@@ -67,7 +67,7 @@ class Car {
      * @see Car#Car(float, int, Boby)
      */
     Car(Car car) {
-        if (car != null){
+        if (car != null) {
             setEngineVolume(car.engineVolume);
             setPower(car.power);
             setBody(car.body);
@@ -97,7 +97,7 @@ class Car {
             return false;
         } else {
 
-            this.engineVolume = ((int)(engineVolume*10))/10.0f;
+            this.engineVolume = ((int) (engineVolume * 10)) / 10.0f;
             return true;
         }
     }
@@ -146,6 +146,7 @@ class Car {
     public void setBody(Boby body) {
         this.body = body;
     }
+
     /***
      * Переопределенный метод для вывода в консоль информации об объекте класса {@link Car}
      *
@@ -164,15 +165,14 @@ class Car {
      *
      * @version 0.1
      * @autor zenicko.ru
-     *
-     * */
-    static class Drawing{
+     */
+    static class Drawing {
 
         /***
          * Процедура, выводящая в консоль сведения о максимально допустимых
          * значениях объема двигателя {@link Car#engineVolume} и мощности двигателя {@link Car#power}
          * */
-        public static void printConstantsCar(){
+        public static void printConstantsCar() {
             System.out.println(format("Максимальное значение объема двигателя: %3.1f л. \nМаксимальное значение мощности двигателя: %d",
                     MAXENGINEVOLUME, MAXPOWER));
         }
@@ -184,15 +184,16 @@ class Car {
          * выходит за границы разумного
          */
 
-        public static boolean setMaxEngineVolume(float engineVolume){
+        public static boolean setMaxEngineVolume(float engineVolume) {
             if (engineVolume < 0f) {
                 System.out.println("Значение объема двигателя меньше нуля");
                 return false;
             } else {
-                MAXENGINEVOLUME = ((int)(engineVolume*10))/10.0f;
+                MAXENGINEVOLUME = ((int) (engineVolume * 10)) / 10.0f;
                 return true;
             }
         }
+
         /***
          * Метод, изменяющий предельное значение объема двигателя {@link Car#power}
          * @param power
@@ -200,7 +201,7 @@ class Car {
          * выходит за границы разумного
          */
 
-        public static boolean setMaxPower(int power){
+        public static boolean setMaxPower(int power) {
             if (power < 0f) {
                 System.out.println("Значение мощности двигателя меньше нуля");
                 return false;
