@@ -159,6 +159,25 @@ class Car {
                 body == null ? "не установлен" : body, engineVolume, power);
     }
 
+    /***
+     * Процедура имитирует звук двигателя. Тональность звука зависит от мощности двигателя.
+     *
+     * */
+    void soundOfEngine(){
+        if (power == 0)
+            System.out.println("Шшшшш!");
+        else if (power > 0 && power <= 75)
+            System.out.println("Дыр-дыр-дыр");
+        else if (power > 75 && power <= 150)
+            System.out.println("Дып-фр-дыр");
+        else if (power > 150 && power <= 300)
+            System.out.println("Дыр-Фр-фррр");
+        else if (power > 300 && power <= 500)
+            System.out.println("Фр-фр-фррррр");
+        else if (power > 500)
+            System.out.println("Ничего слышу! Можно громче!");
+    }
+
     /**
      * Класс Drawing (static nested class). Методы класса устанавливают значения
      * "констант" b>MAXPOWER</b> и <b>MAXENGINEVOLUME</b> класса Car.

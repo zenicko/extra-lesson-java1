@@ -25,9 +25,11 @@ ___
 4. Create packages in the project and main file of project 'Building'.
 5. Create `class Car` with getters and setters, static fields and class.
 6. Add more comments into class Car.
+7. Extra steps to the lesson 9 "Git".
+   1. Change 1. Добавлена процедура `soundOfEngine`, которая имитирует звук двигателя. 
+
 
 ## What's new?
-
 ### Java
 1. Java: Is `null` unseriously? 
 Ok, you take `java.lang.NullPointerException` right now!
