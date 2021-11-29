@@ -159,11 +159,12 @@ class Car {
                 body == null ? "не установлен" : body, engineVolume, power);
     }
 
+
     /***
      * Процедура имитирует звук двигателя. Тональность звука зависит от мощности двигателя.
      *
      * */
-    void soundOfEngine(){
+    void soundOfEngine() {
         if (power == 0)
             System.out.println("Шшшшш!");
         else if (power > 0 && power <= 75)
@@ -172,10 +173,19 @@ class Car {
             System.out.println("Дып-фр-дыр");
         else if (power > 150 && power <= 300)
             System.out.println("Дыр-Фр-фррр");
-        else if (power > 300 && power < 500)
+        else if (power > 300 && power <= 500)
             System.out.println("Фр-фр-фррррр");
-        else if (power >= 500)
+        else if (power > 500)
             System.out.println("Ничего слышу! Можно громче!");
+    }
+
+    /***
+     * Процедура вычисления максимальной дистанции пробега автомобиля при заданных мощности и объема двигателя.
+     *
+     * @return максимальная дистанция пробега автомобиля как {@link Car#power}*{@link Car#engineVolume}/1000.
+     * */
+    double calculateDistance() {
+        return power * engineVolume / 1000;
     }
 
     /**
