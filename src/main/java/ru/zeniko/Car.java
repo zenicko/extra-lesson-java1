@@ -172,9 +172,9 @@ class Car {
             System.out.println("Дып-фр-дыр");
         else if (power > 150 && power <= 300)
             System.out.println("Дыр-Фр-фррр");
-        else if (power > 300 && power <= 500)
+        else if (power > 300 && power < 500)
             System.out.println("Фр-фр-фррррр");
-        else if (power > 500)
+        else if (power >= 500)
             System.out.println("Ничего слышу! Можно громче!");
     }
 
