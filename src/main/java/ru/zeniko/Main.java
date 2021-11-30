@@ -16,7 +16,7 @@ public class Main {
         System.out.println("\n+++++++++++++++++++++");
         Car.Drawing.printConstantsCar();
         System.out.println("\nCreate car with values which are bigger than max values");
-        Car car3 = new Car(new Car(99.13f, 5000, Boby.crossover));
+        // Не используется Car car3 = new Car(new Car(99.13f, 5000, Boby.crossover));
 
         System.out.println("\nChanging max values");
         Car.Drawing.setMaxEngineVolume(100.13f);
