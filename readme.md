@@ -27,7 +27,8 @@ ___
 6. Add more comments into class Car.
 7. Extra steps to the lesson 9 "Git".
    1. Change 1. Added the procedure `soundOfEngine` is which imitating a sound of an engine.
-   2. Change 2. Added the function `calculateDistance` calculates a maximal distance of vehicle run.
+   2. Change 2. Added the function `calculateDistance` which calculates a maximal distance of a vehicle run.
+   3. Change 3. Added the procedure `soundOnHorn` which to sound a horn.
 
 ## What's new?
 
@@ -39,7 +40,9 @@ Ok, you take `java.lang.NullPointerException` right now!
 ### Selenide
 ### Git
 1. Просмотр истории версий `git log`
-2. Просмотр индексированных и неиндексированных изменений `git diff`
+2. Просмотр истории всех веток `git log --oneline --all --graph`
+3. Просмотр индексированных и неиндексированных изменений `git diff`
+4. Создание ветки от заданного коммита `git checkout -b gitnowtest ebd5b6b3b3aeeae72dc7fbd5ac66ac901a60c84e`
 
 
 ### Allure

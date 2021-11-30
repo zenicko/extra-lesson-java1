@@ -188,6 +188,17 @@ class Car {
         return power * engineVolume / 1000;
     }
 
+    /***
+     * Прецедура, имитирующая звук клаксона автомобиля
+     *
+     * @return возвращает свой объект для организации цепочек вызовов
+     * */
+    Car soundOnHorn(){
+        System.out.println("Мап-Мап-Мап");
+
+        return this;
+    }
+
     /**
      * Класс Drawing (static nested class). Методы класса устанавливают значения
      * "констант" b>MAXPOWER</b> и <b>MAXENGINEVOLUME</b> класса Car.

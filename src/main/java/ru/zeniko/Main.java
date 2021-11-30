@@ -26,5 +26,13 @@ public class Main {
         System.out.println(car4);
         System.out.println(format("The Max distance is %s km.", car4.calculateDistance()));
 
+        car4.soundOnHorn().
+                soundOnHorn().
+                soundOnHorn();
+
     }
 }
+
+
+
+
