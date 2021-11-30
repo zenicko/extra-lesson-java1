@@ -26,7 +26,11 @@ ___
 5. Create `class Car` with getters and setters, static fields and class.
 6. Add more comments into class Car.
 7. Extra steps to the lesson 9 "Git".
+<<<<<<< HEAD
    1. Change 1. Добавлена процедура `soundOfEngine`, которая имитирует звук двигателя. 
+=======
+   1. Change 1. Added the procedure `soundOfEngine` is which imitating a sound of an engine.
+>>>>>>> ae87256 (Change 1. Added the procedure soundOfEngine is which imitating a sound of an engine.)
 
 
 ## What's new?
