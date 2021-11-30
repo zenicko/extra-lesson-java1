@@ -17,6 +17,21 @@ ___
 
 - Попробовать поработать со статическими вложенными классами.
 
+###Git
+1.
+Взять любое предыдущее ДЗ 
+создать branch 
+сделать три изменения тремя коммитами, 
+сделать скрин git log, после чего 
+обьединить три коммита в один общий (rebase -i ). 
+Сделать пулл реквест на бранче.
+2.
+Разбиться на пары - 
+сделать пулл реквест в чужой репо, 
+с какими-нибудь изменениями в коде. 
+Провести CR - написать комментарий, 
+апрувнуть изменения.
+
 ## Steps
 ___
 1. Create files readme.md, build.gradle, .gitignore.
@@ -25,6 +40,10 @@ ___
 4. Create packages in the project and main file of project 'Building'.
 5. Create `class Car` with getters and setters, static fields and class.
 6. Add more comments into class Car.
+7. Extra steps to the lesson 9 "Git".
+   1. Change 1. Added the procedure `soundOfEngine` is which imitating a sound of an engine.
+   2. Change 2. Added the function `calculateDistance` which calculates a maximal distance of a vehicle run.
+   3. Change 3. Added the procedure `soundOnHorn` which to sound a horn.
 
 ## What's new?
 
@@ -36,13 +55,16 @@ Ok, you take `java.lang.NullPointerException` right now!
 ### Selenide
 ### Git
 1. Просмотр истории версий `git log`
-2. Просмотр индексированных и неиндексированных изменений `git diff`
-
+2. Просмотр истории всех веток `git log --oneline --all --graph`
+3. Просмотр истории с параметром `pretty` 
+   `git log --oneline --all --graph --decorate --pretty=format:"%h, %cd : %s"`
+4. Просмотр индексированных и неиндексированных изменений `git diff`
+5. Создание ветки от заданного коммита `git checkout -b gitnowtest ebd5b6b3b3aeeae72dc7fbd5ac66ac901a60c84e`
 
 ### Allure
 ### Resources
-1. [About null](https://javarush.ru/groups/posts/1080-9-vejshey-o-null-v-java)  
-
+1. [Java. About null](https://javarush.ru/groups/posts/1080-9-vejshey-o-null-v-java)  
+2. [Git. Сравнение слияния и перебазирования](https://www.atlassian.com/ru/git/tutorials/merging-vs-rebasing)
 ### Miscellaneous
 1. Types of a body: Седан(sedan), Универсал(station wagon), Хэтчбек(hatchback), Лифтбек(liftback), Crossover, Минивэн(Minivan) 
 

@@ -1,7 +1,9 @@
 package ru.zeniko;
 
+import static java.lang.String.format;
+
 public class Main {
-    public static void main(String [] args){
+    public static void main(String[] args) {
         Car car = new Car();
         System.out.println(car);
 
@@ -22,6 +24,15 @@ public class Main {
         Car.Drawing.printConstantsCar();
         Car car4 = new Car(new Car(99.13f, 5000, Boby.crossover));
         System.out.println(car4);
+        System.out.println(format("The Max distance is %s km.", car4.calculateDistance()));
+
+        car4.soundOnHorn().
+                soundOnHorn().
+                soundOnHorn();
 
     }
 }
+
+
+
+
